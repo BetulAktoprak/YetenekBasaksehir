@@ -17,7 +17,7 @@ namespace WinFormsApp1
             string test = "yeni bir deðiþken";
             if (string.IsNullOrEmpty(test))
             {
-                MessageBox.Show("Deðer");
+                MessageBox.Show("Deðer yok");
             }
         }
     }
