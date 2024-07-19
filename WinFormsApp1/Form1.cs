@@ -10,6 +10,7 @@ namespace WinFormsApp1
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show("Yeni bir mesajýnýz var!");
+            MessageBox.Show("Yeni bir mesajýnýz var!");
         }
 
         private void button1_Click(object sender, EventArgs e)
