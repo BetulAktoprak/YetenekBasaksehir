@@ -21,5 +21,10 @@ namespace WinFormsApp1
                 MessageBox.Show("Deðer yok");
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Text");
+        }
     }
 }
