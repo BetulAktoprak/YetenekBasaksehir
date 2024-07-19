@@ -11,5 +11,14 @@ namespace WinFormsApp1
         {
             MessageBox.Show("Yeni bir mesajýnýz var!");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string test = "yeni bir deðiþken";
+            if (string.IsNullOrEmpty(test))
+            {
+                MessageBox.Show("Deðer");
+            }
+        }
     }
 }
